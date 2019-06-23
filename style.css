@@ -1,0 +1,54 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Viga', sans-serif;
+}
+
+.container{
+  text-align: center;
+}
+
+.hexColor{
+  text-transform: capitalize;
+}
+
+.hex{
+  font-size:  3rem;
+}
+.copyBtn{
+  padding: 0.5rem 1.0rem rem;
+  margin: 20px;
+  border: 4px solid #fefefe;
+  color: #fefefe;
+  border-radius: 7px;
+  font-size: 2.5rem;
+  background: rgba(0,0,0,0.6);
+  cursor: pointer;
+  outline: none;
+  text-transform: capitalize;
+}
+
+
+.hexBtn{
+  padding: 0.5rem 1.0rem rem;
+  margin: 20px;
+  border: 4px solid #fefefe;
+  color: #fefefe;
+  border-radius: 7px;
+  font-size: 2.5rem;
+  background: rgba(0,0,0,0.6);
+  cursor: pointer;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.hexBtn:hover{
+  background: rgb(0,0,0);
+}
+
+
+.copyBtn:hover{
+  background: rgb(0,0,0);
+}
